@@ -36,7 +36,7 @@
         </Command>
         <Command>
           <type>AfterBuild</type>
-          <command>cp -R '${SolutionDir}/iosoutput/HelloSharedUI.iOS.framework/' '${SolutionDir}/HelloSharedUIObjc/HelloSharedUI.iOS.framework'</command>
+          <command>cp -R '${SolutionDir}/iosoutput/HelloSharedUI.iOS.framework/' '${SolutionDir}/../HelloSharedUIObjc/HelloSharedUI.iOS.framework'</command>
         </Command>
       </CustomCommands>
     </CustomCommands>

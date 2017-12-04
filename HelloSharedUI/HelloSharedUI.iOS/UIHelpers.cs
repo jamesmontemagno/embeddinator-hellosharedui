@@ -47,7 +47,10 @@ namespace HelloSharedUI
             while (viewController.PresentedViewController != null)
                 viewController = viewController.PresentedViewController;
 
-
+            var navController = viewController as UINavigationController;
+            if (navController != null)
+                viewController = navController.ViewControllers.Last();
+            
             return viewController;
         }
     }

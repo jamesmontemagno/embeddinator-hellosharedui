@@ -29,7 +29,7 @@ bld/
 .[Dd]roidres/
 [Ii]osoutput/
 [Aa]ndroidoutput/
-HelloSharedUIObjc/HelloShareUI.iOS.framework
+HelloSharedUIObjc/HelloShareUI.iOS.framework/
 
 # Visual Studio 2015 cache/options directory
 .vs/
