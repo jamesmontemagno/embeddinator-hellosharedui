@@ -9,6 +9,8 @@
 *.userosscache
 *.sln.docstates
 
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -23,6 +25,11 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+
+.[Dd]roidres/
+[Ii]osoutput/
+[Aa]ndroidoutput/
+HelloSharedUIObjc/HelloShareUI.iOS.framework
 
 # Visual Studio 2015 cache/options directory
 .vs/
