@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using UIKit;
+using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 namespace HelloSharedUI
@@ -10,7 +11,8 @@ namespace HelloSharedUI
         MyPage view;
         public UIHelpers()
         {
-            Xamarin.Forms.Forms.Init();
+            if(!Forms.IsInitialized)
+                Forms.Init();
             view = new MyPage();
         }
 

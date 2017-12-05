@@ -34,7 +34,6 @@
         <Command>
           <type>AfterBuild</type>
           <command>mono '${SolutionDir}/packages/Embeddinator-4000.0.3.0/tools/Embeddinator-4000.exe' '${TargetPath}' --gen=Java --platform=Android --outdir='${SolutionDir}/androidoutput' -c</command>
-          <externalConsole>True</externalConsole>
         </Command>
         <Command>
           <type>AfterBuild</type>
@@ -125,6 +124,7 @@
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
