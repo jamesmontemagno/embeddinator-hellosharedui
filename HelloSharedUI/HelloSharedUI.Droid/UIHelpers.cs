@@ -8,14 +8,14 @@ using Xamarin.Forms.Platform.Android;
 
 namespace HelloSharedUI.Droid
 {
-    [Register("UIHelpers")]
+    [Register("hellosharedui.droid.UIHelpers")]
     public class UIHelpers : Java.Lang.Object
     {
         public UIHelpers()
         {
         }
 
-        [Export]
+        [Export("getMyPageFragment")]
         public Android.Support.V4.App.Fragment GetMyPageFragment(Context context)
         {
             if (!Forms.IsInitialized)
