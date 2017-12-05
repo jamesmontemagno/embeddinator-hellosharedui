@@ -33,7 +33,7 @@
         </Command>
         <Command>
           <type>AfterBuild</type>
-          <command>mono '${SolutionDir}/packages/Embeddinator-4000.0.3.0/tools/Embeddinator-4000.exe' '${TargetPath}' --gen=Java --platform=Android --outdir='${SolutionDir}/androidoutput' -c</command>
+          <command>mono '${SolutionDir}/packages/Embeddinator-4000.0.3.0/tools/Embeddinator-4000.exe' '${TargetPath}' --gen=Java --platform=Android --outdir='${SolutionDir}/androidoutput' -c 'bin/Debug/FormsViewGroup.dll'</command>
         </Command>
 		<Command>
           <type>AfterBuild</type>

@@ -11,9 +11,17 @@ namespace HelloSharedUI.Droid
     [Register("hellosharedui.droid.UIHelpers")]
     public class UIHelpers : Java.Lang.Object
     {
-        public UIHelpers()
+        public UIHelpers() : base()
         {
         }
+
+        public UIHelpers(IntPtr handle, JniHandleOwnership transfer) 
+            : base(handle, transfer)
+        {
+            
+        }
+
+
 
         [Export("getMyPageFragment")]
         public Android.Support.V4.App.Fragment GetMyPageFragment(Context context)
