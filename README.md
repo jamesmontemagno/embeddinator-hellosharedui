@@ -5,7 +5,7 @@ The Hello World of .NET Embedding with Xamarin.Forms Native Forms feature to sha
 
 Guide
 
-- Install Visual Studio for Mac: www.visualstudio.com
+- Install Visual Studio for Mac: https://www.visualstudio.com:80/?WT.mc_id=embeddinatorhellosharedui-github-jamont
 - Open HelloWorld.sln
 - Restore NuGet packages
 - Build Solution -> This will generate the framework and copy it into the Xcode project
